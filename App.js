@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import { Text, View } from "react-native";
-import { Platform } from "react-native";
-import { TabNavigator, StackNavigator } from "react-navigation";
-import { FontAwesome, Ionicons } from "@expo/vector-icons";
-import { blue, white, purple } from "./colors";
+import { StackNavigator } from "react-navigation";
 import Tabs from "./TabNavigator";
 import reducer from './reducers';
 import CardDetail from "./components/CardDetail";
